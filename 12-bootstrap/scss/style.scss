@@ -1,0 +1,23 @@
+.banner {
+    min-height: 400px;
+    background-image: url("https://media.tenor.com/uTGE6zSoSs8AAAAC/future-gaming.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white
+}
+
+.slider {
+    img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+.complex-grid {
+    img {
+      height: 250px;
+      object-fit: cover;
+    }
+  }
+  
