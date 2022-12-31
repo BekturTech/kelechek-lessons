@@ -33,19 +33,19 @@
 // document.write(`Total weight ${sumToys}kg`) + "<br>";
 
 
-// let userDeposit = + prompt("You're deposit: ");
-// let fisrtYear = (userDeposit * 4 / 100 + userDeposit);
-// let secondYear = (fisrtYear * 4 / 100) + fisrtYear;
-// let thirdtYear = (secondYear * 4 / 100) + secondYear;
-// document.write(`You're deposit: ${userDeposit}$<br> You're deposit after 1 year: ${fisrtYear.toFixed(2)}$<br> You're deposit after 2 years ${secondYear.toFixed(2)}$<br> You're deposit after 3 years ${thirdtYear.toFixed(2)}$` + "<br>");
+let userDeposit = + prompt("You're deposit: ");
+let fisrtYear = (userDeposit * 4 / 100 + userDeposit);
+let secondYear = (fisrtYear * 4 / 100) + fisrtYear;
+let thirdtYear = (secondYear * 4 / 100) + secondYear;
+document.write(`You're deposit: ${userDeposit}$<br> You're deposit after 1 year: ${fisrtYear.toFixed(2)}$<br> You're deposit after 2 years ${secondYear.toFixed(2)}$<br> You're deposit after 3 years ${thirdtYear.toFixed(2)}$` + "<br>");
 
 
 
-let a = prompt("Type first number: ");
-let b = prompt("Type second number: ");
-document.write(a + b + "<br>");
-document.write(a - b + "<br>");
-document.write(a * b + "<br>");
-document.write(a / b + "<br>");
-document.write(a % b + "<br>");
-document.write(a ** b + "<br>");
+// let a = prompt("Type first number: ");
+// let b = prompt("Type second number: ");
+// document.write(a + b + "<br>");
+// document.write(a - b + "<br>");
+// document.write(a * b + "<br>");
+// document.write(a / b + "<br>");
+// document.write(a % b + "<br>");
+// document.write(a ** b + "<br>");
