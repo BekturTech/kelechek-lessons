@@ -96,88 +96,88 @@
 
 // 3. Разработайте программу, принимающую на вход дату и выводящую на экран дату, следующую за ней. Например, если пользователь введет дату, соответствующую 18 ноября 2019 года, на экран должен быть выведен следующий день, то есть 19 ноября 2019 года. Если входная дата будет представлять 30 ноября, то на выходе мы должны получить 1 декабря. И наконец, если ввести последний день года – 31 декабря 2019-го, пользователь должен увидеть на экране дату 1 января 2020-го. Дату пользователь должен вводить в три этапа: год, месяц и день. Убедитесь, что ваша программа корректно обрабатывает високосные годы.
 
-let userDay = 29;
-let userMonth = "february";
-let userYear = 2020;
+// let userDay = 29;
+// let userMonth = "february";
+// let userYear = 2020;
 
-let outputDate;
-let outputMonth;
-let outputYear = userYear;
+// let outputDate;
+// let outputMonth;
+// let outputYear = userYear;
 
-switch (userMonth) {
-  case "february":
-    if (userYear % 4 === 0 && userDay === 29) {
-      outputDate = 1;
-      outputMonth = "march";
-    } else if (userYear % 4 !== 0 && userDay === 28) {
-      outputDate = 1;
-      outputMonth = "march";
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  case "january":
-    if (userDay === 31) {
-      outputDate = 1;
-      outputMonth = "february";
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  case "march":
-    if (userDay === 31) {
-      outputDate = 1;
-      outputMonth = "april";
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  case "july":
-    if (userDay === 31) {
-      outputDate = 1;
-      outputMonth = "august";
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  case "august":
-    if (userDay === 31) {
-      outputDate = 1;
-      outputMonth = "september";
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  case "october":
-    if (userDay === 31) {
-      outputDate = 1;
-      outputMonth = "november";
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  case "december":
-    if (userDay === 31) {
-      outputDate = 1;
-      outputMonth = "january";
-      outputYear = userYear + 1;
-    } else {
-      outputDate = userDay + 1;
-      outputMonth = userMonth;
-    }
-    break;
-  default:
-    outputDate = userDay + 1;
-    outputMonth = userMonth;
-    break;
-}
+// switch (userMonth) {
+//   case "february":
+//     if (userYear % 4 === 0 && userDay === 29) {
+//       outputDate = 1;
+//       outputMonth = "march";
+//     } else if (userYear % 4 !== 0 && userDay === 28) {
+//       outputDate = 1;
+//       outputMonth = "march";
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   case "january":
+//     if (userDay === 31) {
+//       outputDate = 1;
+//       outputMonth = "february";
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   case "march":
+//     if (userDay === 31) {
+//       outputDate = 1;
+//       outputMonth = "april";
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   case "july":
+//     if (userDay === 31) {
+//       outputDate = 1;
+//       outputMonth = "august";
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   case "august":
+//     if (userDay === 31) {
+//       outputDate = 1;
+//       outputMonth = "september";
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   case "october":
+//     if (userDay === 31) {
+//       outputDate = 1;
+//       outputMonth = "november";
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   case "december":
+//     if (userDay === 31) {
+//       outputDate = 1;
+//       outputMonth = "january";
+//       outputYear = userYear + 1;
+//     } else {
+//       outputDate = userDay + 1;
+//       outputMonth = userMonth;
+//     }
+//     break;
+//   default:
+//     outputDate = userDay + 1;
+//     outputMonth = userMonth;
+//     break;
+// }
 
-let message = `Следующая дата: ${outputDate} ${outputMonth} ${outputYear}`;
+// let message = `Следующая дата: ${outputDate} ${outputMonth} ${outputYear}`;
 
-document.write(message);
+// document.write(message);

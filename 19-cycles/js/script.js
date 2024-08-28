@@ -12,7 +12,7 @@
 
 // 2.Имеется массив строк с 10 элементами. Вывести на экран самое длинное слово из массива
 
-// let words = ["book", "red", "dog", "horse", "python", "computer", "curtain", "laborghini", "mercedes", "lexus"];
+// let words = ["book", "red", "dog", "horse", "python", "computer", "curtain", "laborghini", "mercedes", "lexus", "blackbird car"]
 // let max = words[0];
 // for (let word of words) {
 //   if (word.length > max.length) {
@@ -60,8 +60,8 @@
 
 // 2. Вывести таблицу умножения от 0 до 10
 
-for (let i = 0; i <= 10; i++) {
-  for (let j = 1; j <=10; j++) {
-    document.write(j + " * " + i + " = " + (j*i) + "<br>")
-  }
-}
+// for (let i = 0; i <= 10; i++) {
+//   for (let j = 1; j <=10; j++) {
+//     document.write(j + " * " + i + " = " + (j*i) + "<br>")
+//   }
+// }

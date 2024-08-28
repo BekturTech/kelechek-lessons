@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+p {
+  width: 350px;
+  border: 1px solid yellow;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (max-width: 767.98px) {
+  body {
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */
