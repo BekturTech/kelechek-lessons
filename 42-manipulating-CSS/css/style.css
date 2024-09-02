@@ -1,0 +1,10 @@
+.dark-mode {
+    background-color: black;
+    color: white;    
+}
+
+input[type="text"]:focus {
+    background-color: rgb(255, 255, 0); /* Задайте любой цвет фона */
+}
+
+    
