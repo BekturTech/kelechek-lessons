@@ -54,7 +54,7 @@ window.addEventListener("load", function() {
   card.append(cardCompany);
   cardCompany.textContent = "Oxford university";
   card.append(socials);
-  const socialItems = ["n", "Tw", "Dr", "Fb",]
+  const socialItems = ["In", "Tw", "Dr", "Fb",]
   socialsLi.append(socialsLinks);
   
   socialItems.forEach((item) => {
