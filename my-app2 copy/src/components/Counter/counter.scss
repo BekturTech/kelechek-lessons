@@ -1,0 +1,22 @@
+.counter {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+    border-radius: 9px;
+    text-align: center;
+
+    button {
+        display: inline-block;
+        margin: 0 15px;
+        padding: 5px;
+        min-width: 40px;
+        min-height: 40px;
+        background-color: lightblue;
+        border: none;
+        border-radius: 4px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+};
