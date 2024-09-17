@@ -20,7 +20,7 @@ function Counter() {
             <strong>{count}</strong>
             <button onClick={growthCount}>+</button>
         </div>
-  )
+    )
 }
 
 export default Counter
