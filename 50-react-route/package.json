@@ -1,0 +1,9 @@
+{
+  "name": "50-react-route",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "react-router-dom": "^6.26.2"
+  }
+}
